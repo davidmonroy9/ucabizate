@@ -6,6 +6,20 @@
     crema #f3ecd3
 */
 
+.badge-festival{
+  background-color: orange;
+}
+
+.btn-eventos {
+  background-color: #474f85;
+  color: white;
+}
+
+.btn-eventos:hover{
+  background-color: #51e3d4;
+  color: white;
+}
+
 .btn-ucabizate {
   background-color: #f3ecd3;
 }
@@ -53,6 +67,27 @@
 #eventos {
   background-color: #f3f9fb;
 }
+
+#noticias{
+  background-color: #f3ecd3;
+}
+
+#calendario{
+  background-color: #51e3d4;
+}
+
+#espacios{
+  background-color: #f3f9fb;
+}
+
+#galeria{
+  background-color: #f3ecd3;
+}
+
+.degradado{
+  background: linear-gradient(to right, rgba(47,53,92,1) 0%, rgba(71,79,133,1) 100%);
+}
+
 
 #footer{
   background: linear-gradient(to right, rgba(47,53,92,1) 0%, rgba(71,79,133,1) 100%);
