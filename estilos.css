@@ -10,6 +10,10 @@
   background-color: orange;
 }
 
+.badge-social{
+  background-color: #48C954;
+}
+
 .btn-eventos {
   background-color: #474f85;
   color: white;
@@ -73,15 +77,19 @@
 }
 
 #calendario{
-  background-color: #51e3d4;
-}
-
-#espacios{
   background-color: #f3f9fb;
 }
 
-#galeria{
+#espacios{
   background-color: #f3ecd3;
+}
+
+#galeria{
+  background-color: #51e3d4;
+}
+
+#agenda{
+  background-color: #51e3d4;
 }
 
 .degradado{

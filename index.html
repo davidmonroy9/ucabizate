@@ -134,6 +134,32 @@
       </div>
     </div>
 
+    <div class="modal" id="modal3" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+          <h5 class="modal-title">Feria de agrupaciones</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          </div>
+          <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="modal-footer">
+        <!--  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+          <button type="button" class="btn btn-eventos" data-dismiss="modal">Entendido</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Eventos -->
     <section id="eventos" class="pt-4">
 
@@ -150,7 +176,7 @@
             <div class="card">
               <img class="card-img-top" src="assets/images/ferialibro.jpg" alt="Feria del libro">
               <div class="card-body">
-                <h5 class="card-title mb-0">Feria del libro</h5>
+                <h5 class="card-title mb-0">Feria del<br> libro</h5>
                 <span class="badge badge-info">Literatura</span>
                 <div class="badges">
 
@@ -165,9 +191,9 @@
           </div>
           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 mb-xs-4 mb-sm-4">
             <div class="card">
-              <img class="card-img-top" src="assets/images/ferialibro.jpg" alt="Feria del libro">
+              <img class="card-img-top" src="assets/images/becazo.jpg" alt="Feria del libro">
               <div class="card-body">
-                <h5 class="card-title mb-0">El Becazo</h5>
+                <h5 class="card-title mb-0">El <br>Becazo</h5>
                 <span class="badge badge-festival">Festival</span>
                 <div class="badges">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -181,11 +207,14 @@
           </div>
           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 mb-xs-4 mb-sm-4">
             <div class="card">
-              <img class="card-img-top" src="assets/images/ferialibro.jpg" alt="Feria del libro">
+              <img class="card-img-top" src="assets/images/agrupaciones.jpg" alt="Feria del libro">
               <div class="card-body">
-                <h5 class="card-title">Feria del libro</h5>
+                <h5 class="card-title mb-0">Feria de <br>agrupaciones</h5>
+                <span class="badge badge-social">Social</span>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-eventos">Conoce más</a>
+                <button type="button" class="btn btn-eventos" data-toggle="modal" data-target="#modal3">
+                Conoce mas
+                </button>
               </div>
             </div>
           </div>
@@ -194,8 +223,11 @@
               <img class="card-img-top" src="assets/images/ferialibro.jpg" alt="Feria del libro">
               <div class="card-body">
                 <h5 class="card-title">Feria del libro</h5>
+                <span class="badge badge-social">Social</span>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-eventos">Conoce más</a>
+                <button type="button" class="btn btn-eventos" data-toggle="modal" data-target="#modal3">
+                Conoce mas
+                </button>
               </div>
             </div>
           </div>
@@ -208,6 +240,16 @@
         <div class="row pt-4 pb-4">
           <div class="col text-center text-uppercase">
             <small>Enterate de las <strong> noticias </strong> mas recientes</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="agenda">
+      <div class="container">
+        <div class="row pt-4 pb-4">
+          <div class="col text-center text-uppercase">
+            <small>Mantente al dia con nuestra <strong>agenda</strong></small>
           </div>
         </div>
       </div>
@@ -242,6 +284,7 @@
         </div>
       </div>
     </section>
+
 
     <!-- Footer -->
     <footer id="footer" class="pb-4 pt-4">
