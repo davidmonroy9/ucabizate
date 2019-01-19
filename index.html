@@ -342,7 +342,7 @@
     </section>
 
     <!-- Footer -->
-    <footer id="footer" class="pb-4 pt-4">
+    <!-- <footer id="footer" class="pb-4 pt-4">
       <div class="container">
         <div class="row text-center">
           <div class="col-xs-12 col-sm-12 col-md-4">
@@ -355,6 +355,52 @@
               <a href="#">Términos y condiciones</a>
           </div>
         </div>
+      </div>
+    </footer> -->
+
+    <footer id= "footer" class="footer ">
+      <div class="contenedor">
+        <div class="contacto">
+          <a href="http://instagram.com" target="_blank"><img src="assets/images/InstagramLogo.jpg" alt="Logotipo Instagram" /></a> 
+          <a href="http://twitter.com" target="_blank"><img src="assets/images/TwLogo.jpg" alt="Logotipo Tw"></a>
+          <a href="http://Facebook.com" target="_blank"><img src="assets/images/FacebookLogo.jpg" alt="Logotipo Facebook"></a>
+          
+        </a>
+          <a href="#"><strong>Telefono</strong> <span>041499999999</span></a>
+          <a href="mailto:contactoUcabizate@ucab.edu.ve"><strong>E-mail</strong> <span>contacto@invie.com</span></a>
+        </div>
+        <form class="formulario">
+          <div class="col1">
+            <label for="nombre">Nombre</label>
+            <input type="text" required id="nombre" name="nombre"/>
+            <label for="email">E-mail</label>
+            <input type="email" required id="email" name="email"/>
+            <div class="sexo">
+              <label for="mujer">
+                <input type="radio" id="mujer" checked name="sexo" value="mujer"> mujer
+              </label>
+              <label for="hombre">
+                <input type="radio" id="hombre" name="sexo" value="hombre"> hombre
+              </label>
+            </div>
+            <div class="intereses">
+              <label for="reclamos">
+                <input type="checkbox" id="reclamos" name="intereses" value="reclamos"> Reclamos
+              </label>
+              <label for="comentarios">
+                <input type="checkbox" id="comentarios" name="intereses" value="comantarios"> Comentarios
+              </label>
+              <label for="otros">
+                <input type="checkbox" id="otros" name="intereses" value="otros"> Otros
+              </label>
+            </div>
+          </div>
+          <div class="col2">
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comantarios" id="comentarios" cols="30" rows="7"></textarea>
+            <input type="submit" value="Enviar" class="button"/>
+          </div>
+        </form>
       </div>
     </footer>
 
