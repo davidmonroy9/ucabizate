@@ -10,6 +10,15 @@
   background-color: orange;
 }
 
+.badge-deportes{
+  background-color: red;
+  color:white;
+}
+
+.card-body{
+  text-transform: none;
+}
+
 .badge-social{
   background-color: #48C954;
 }
@@ -22,6 +31,22 @@
 .btn-eventos:hover{
   background-color: #51e3d4;
   color: white;
+}
+
+.btn-noticia-acordeon{
+  background-color: #474f85;
+  text-transform: uppercase;
+  color: white;
+}
+
+.btn-noticia-acordeon:hover{
+
+  color: #f3ecd3;
+}
+
+#noticias p {
+  text-transform: none;
+  font-size: 15px;
 }
 
 .btn-ucabizate {
@@ -38,6 +63,7 @@
   color: white;
   border: 1px solid #51e3d4;
 }
+
 
 #header li a{
   text-align: center;
@@ -78,6 +104,11 @@
 
 #calendario{
   background-color: #f3f9fb;
+  background: url(assets/images/daniel-damas-589559-unsplash.jpeg);
+           background-repeat: no-repeat;
+           background-position: center center;
+           background-attachment: fixed;
+
 }
 
 #espacios{
